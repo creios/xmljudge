@@ -14,7 +14,7 @@
     </filter>
     <testsuites>
         <testsuite name="tests">
-            <directory>tests</directory>
+            <directory>phpunit/tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
