@@ -15,11 +15,11 @@ trait JudgementTrait
     protected $passed;
 
     /**
-     * @var Constraint[]
+     * @var ConstraintConclusion[]
      */
     protected $complied = [];
     /**
-     * @var Constraint[]
+     * @var ConstraintConclusion[]
      */
     protected $failed = [];
 
@@ -32,7 +32,7 @@ trait JudgementTrait
     }
 
     /**
-     * @return Constraint[]
+     * @return ConstraintConclusion[]
      */
     public function getComplied()
     {
@@ -40,7 +40,7 @@ trait JudgementTrait
     }
 
     /**
-     * @return Constraint[]
+     * @return ConstraintConclusion[]
      */
     public function getFailed()
     {

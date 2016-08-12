@@ -14,8 +14,8 @@ class Judgement
     /**
      * Judgement constructor.
      * @param bool $passed
-     * @param Constraint[] $complied
-     * @param Constraint[] $failed
+     * @param ConstraintConclusion[] $complied
+     * @param ConstraintConclusion[] $failed
      */
     public function __construct($passed, array $complied, array $failed)
     {
