@@ -13,5 +13,22 @@ trait JudgementTrait
      * @var bool
      */
     protected $passed;
-    
+
+    /**
+     * @return boolean
+     */
+    public function hasPassed()
+    {
+        return $this->passed;
+    }
+
+    /**
+     * @param boolean $passed
+     */
+    public function setPassed($passed)
+    {
+        $this->passed = $passed;
+    }
+
+
 }
