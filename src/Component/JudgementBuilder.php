@@ -4,12 +4,11 @@ namespace Creios\XmlJudge\Component;
 
 /**
  * Class JudgementBuilder
- * @package Creios\XmlJudge
  */
 class JudgementBuilder
 {
 
-    use Creios\XmlJudge\Component\JudgementTrait;
+    use JudgementTrait;
 
     /**
      * @return Judgement

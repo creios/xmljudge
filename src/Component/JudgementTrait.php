@@ -4,7 +4,6 @@ namespace Creios\XmlJudge\Component;
 
 /**
  * Class JudgementTrait
- * @package Creios\XmlJudge
  */
 trait JudgementTrait
 {
