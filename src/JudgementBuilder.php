@@ -16,7 +16,7 @@ class JudgementBuilder
      */
     public function build()
     {
-        return new Judgement($this->passed);
+        return new Judgement($this->passed, $this->complied, $this->failed);
     }
 
     /**
@@ -28,4 +28,21 @@ class JudgementBuilder
         $this->passed = $passed;
         return $this;
     }
+
+    /**
+     * @param Constraint[] $complied
+     */
+    public function addComplied($complied)
+    {
+        $this->complied[] = $complied;
+    }
+
+    /**
+     * @param Constraint[] $failed
+     */
+    public function addFailed($failed)
+    {
+        $this->failed[] = $failed;
+    }
+
 }

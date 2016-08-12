@@ -12,11 +12,11 @@ class JudgementTest extends PHPUnit_Framework_TestCase
 
     public function testConstruct()
     {
-        $judgement = new Judgement(true);
+        $judgement = new Judgement(true, [], []);
         $this->assertTrue($judgement->hasPassed());
 
-        $judgement = new Judgement(false);
+        $judgement = new Judgement(false, [], []);
         $this->assertFalse($judgement->hasPassed());
     }
-    
+
 }
