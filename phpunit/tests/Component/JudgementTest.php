@@ -1,7 +1,7 @@
 <?php
-namespace Creios\XmlJudge;
 
-use Creios\XmlJudge\Component\Judgement;
+namespace Creios\XmlJudge\Component;
+
 use PHPUnit_Framework_TestCase;
 
 /**

@@ -1,8 +1,6 @@
 <?php
 
-namespace Creios\XmlJudge;
-
-use Creios\XmlJudge\Component\JudgementBuilder;
+namespace Creios\XmlJudge\Component;
 
 /**
  * Class JudgementBuilderTest
