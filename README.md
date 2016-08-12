@@ -27,13 +27,13 @@ class LengthConstraint implements \Creios\XmlJudge\Constraint
 $xmlJudge = new XmlJudge([new UniqueNameConstraint()]);
 $judgement = $xmlJudge->judge(file_get_contents('example.xml'));
 if ($judgement->hasPassed()){
-    echo "OK";
+    echo "OK\n";
 } else {
-    echo "Errors";
+    echo "Errors\n";
     foreach ($judgement->getFailed() as $constraintConclusion) {
-        echo "  Constraint {$constraintConclusion->getClass()}";
+        echo "  Constraint {$constraintConclusion->getClass()}\n";
         foreach ($constraintConclusion->getViolations() as $violation) {
-            echo "    {$violation->getError()}";
+            echo "    {$violation->getError()}\n";
         }
     }
 }
