@@ -21,9 +21,11 @@ class JudgementBuilder
 
     /**
      * @param boolean $passed
+     * @return $this
      */
     public function setPassed($passed)
     {
         $this->passed = $passed;
+        return $this;
     }
 }
