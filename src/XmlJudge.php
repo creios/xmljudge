@@ -28,7 +28,7 @@ class XmlJudge
 
         foreach ($this->constraints as $constraint) {
             $violations = $constraint->evaluate($xml);
-            $passed = count($violations) > 0;
+            $passed = (count($violations) === 0);
             $conclusion = new ConstraintConclusion(
                 $passed, get_class($constraint), $violations);
             if ($passed) {
