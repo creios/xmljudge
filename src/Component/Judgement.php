@@ -2,16 +2,12 @@
 
 namespace Creios\XmlJudge\Component;
 
-/**
- * Class Judgement
- */
 class Judgement
 {
 
     use JudgementTrait;
 
     /**
-     * Judgement constructor.
      * @param bool $passed
      * @param ConstraintConclusion[] $complied
      * @param ConstraintConclusion[] $failed

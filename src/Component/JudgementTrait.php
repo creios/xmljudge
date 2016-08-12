@@ -2,9 +2,6 @@
 
 namespace Creios\XmlJudge\Component;
 
-/**
- * Class JudgementTrait
- */
 trait JudgementTrait
 {
 

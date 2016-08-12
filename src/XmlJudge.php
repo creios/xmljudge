@@ -10,6 +10,9 @@ class XmlJudge
     /** @var Constraint[] */
     private $constraints;
 
+    /**
+     * @param Constraint[] $constraints
+     */
     public function __construct(array $constraints)
     {
         $this->constraints = $constraints;
