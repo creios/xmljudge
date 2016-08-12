@@ -1,0 +1,17 @@
+{
+    "name": "creios/xmljudge",
+    "description": "High level validation of XML files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Tegeler",
+            "email": "tegeler@creios.net"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "^5.5"
+    }
+}
