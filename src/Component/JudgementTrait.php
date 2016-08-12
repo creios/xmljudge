@@ -1,6 +1,6 @@
 <?php
 
-namespace Creios\XmlJudge;
+namespace Creios\XmlJudge\Component;
 
 /**
  * Class JudgementTrait

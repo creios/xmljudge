@@ -1,6 +1,10 @@
 <?php
 namespace Creios\XmlJudge;
 
+use Creios\XmlJudge\Component\ConstraintConclusion;
+use Creios\XmlJudge\Component\Judgement;
+use Creios\XmlJudge\Component\JudgementBuilder;
+
 class XmlJudge
 {
     /** @var Constraint[] */

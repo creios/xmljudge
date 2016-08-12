@@ -1,5 +1,7 @@
 <?php
-namespace Creios\XmlJudge;
+namespace Creios\XmlJudge\Component;
+
+use Creios\XmlJudge\Violation;
 
 class ConstraintConclusion
 {

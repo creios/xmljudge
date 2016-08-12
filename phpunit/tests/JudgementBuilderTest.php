@@ -2,6 +2,8 @@
 
 namespace Creios\XmlJudge;
 
+use Creios\XmlJudge\Component\JudgementBuilder;
+
 /**
  * Class JudgementBuilderTest
  * @package Creios\XmlJudge
