@@ -30,17 +30,17 @@ class JudgementBuilder
     }
 
     /**
-     * @param Constraint[] $complied
+     * @param Constraint $complied
      */
-    public function addComplied($complied)
+    public function addComplied(Constraint $complied)
     {
         $this->complied[] = $complied;
     }
 
     /**
-     * @param Constraint[] $failed
+     * @param Constraint $failed
      */
-    public function addFailed($failed)
+    public function addFailed(Constraint $failed)
     {
         $this->failed[] = $failed;
     }
