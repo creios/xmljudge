@@ -22,13 +22,4 @@ trait JudgementTrait
         return $this->passed;
     }
 
-    /**
-     * @param boolean $passed
-     */
-    public function setPassed($passed)
-    {
-        $this->passed = $passed;
-    }
-
-
 }

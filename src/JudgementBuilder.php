@@ -18,4 +18,12 @@ class JudgementBuilder
     {
         return new Judgement($this->passed);
     }
+
+    /**
+     * @param boolean $passed
+     */
+    public function setPassed($passed)
+    {
+        $this->passed = $passed;
+    }
 }
