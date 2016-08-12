@@ -13,5 +13,10 @@
     "require-dev": {
         "mockery/mockery": "^0.9.5",
         "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creios\\XmlJudge\\": "src"
+        }
     }
 }
