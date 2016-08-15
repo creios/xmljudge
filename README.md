@@ -24,7 +24,7 @@ class LengthConstraint implements \Creios\XmlJudge\Constraint
     }
 }
 
-$xmlJudge = new XmlJudge([new UniqueNameConstraint()]);
+$xmlJudge = new XmlJudge([new LengthConstraint()]);
 $judgement = $xmlJudge->judge(file_get_contents('example.xml'));
 if ($judgement->hasPassed()){
     echo "OK\n";
